@@ -3,48 +3,51 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>najjjj | Mimarlık Günlüğüm</title>
-  <link rel="stylesheet" href="style.css">
+  <title>NAJJJJ Menü</title>
+  <style>
+    body {
+      background-color: #ede9fe;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .social {
+      margin-top: 30px;
+    }
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #4c1d95;
+      font-weight: bold;
+    }
+    .social a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="logo">najjjj</div>
-    <nav>
-      <a href="#">Ana Sayfa</a>
-      <a href="#">Blog</a>
-      <a href="#">Bilgiler</a>
-      <a href="#">Portfolyo</a>
-      <a href="#">Hakkımda</a>
-    </nav>
-  </header>
+  <h1>NAZ ABAŞ – Interaktif Menü</h1>
+  <img src="assets/naz-abas-menu.png" usemap="#menumap" alt="Ana Menü Görseli" />
 
-  <main>
-    <section class="intro">
-      <h1>Merhaba, ben Naz 🌿</h1>
-      <p>Mimarlık öğrencisiyim. Bu site blogum, bilgi köşem ve portfolyom. İlham dolu bir yolculuğa hoş geldin!</p>
-    </section>
+  <map name="menumap">
+    <area shape="rect" coords="880,60,1360,130" href="about.html" alt="Hakkımda">
+    <area shape="rect" coords="880,130,1360,200" href="portfolyo.html" alt="Portfolyo">
+    <area shape="rect" coords="880,200,1360,270" href="bilgi.html" alt="Mimarlık">
+    <area shape="rect" coords="880,270,1360,340" href="blog.html" alt="Blog">
+    <area shape="rect" coords="880,340,1360,410" href="feedback.html" alt="Geri Bildirim">
+    <area shape="rect" coords="880,410,1360,480" href="contact.html" alt="Bana Ulaş">
+  </map>
 
-    <section class="cards">
-      <div class="card">
-        <h2>📚 Blog Yazıları</h2>
-        <p>Mimarlıkla ilgili yazılarımı ve ilham kaynaklarımı burada bulabilirsin.</p>
-        <a href="#">Daha Fazla</a>
-      </div>
-      <div class="card">
-        <h2>🧠 Bilgi Köşesi</h2>
-        <p>Yapı malzemeleri, detaylar ve mimarlık kuramları hakkında notlarım burada.</p>
-        <a href="#">Keşfet</a>
-      </div>
-      <div class="card">
-        <h2>🎨 Portfolyo</h2>
-        <p>Projelerimi ve paftalarımı buradan inceleyebilirsin.</p>
-        <a href="#">Göz At</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 najjjj | tasarım & mimarlık & ilham</p>
-  </footer>
+  <div class="social">
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="https://youtube.com" target="_blank">YouTube</a>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+  </div>
 </body>
 </html>
